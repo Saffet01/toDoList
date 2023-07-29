@@ -1,0 +1,113 @@
+html{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    background-color: #646be7;
+    /* background-image: linear-gradient(135deg, #516e81 0%, #646be7 100%); */
+}
+
+#card{
+    /* border: 1px solid red; */
+    border-radius: 16px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7277db;
+}
+
+#tabs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-radius: 16px 16px 0 0;
+    background-color: white;
+    border-bottom: 1px solid bisque;
+}
+
+#toDo{
+    background-color: #7277db;
+}
+
+#statusDone{
+    background-color: #7f82d3;
+}
+
+#tabs button{
+    height: 50px;
+    width: 50%;
+    border-radius: 16px 16px 0 0;
+    border-bottom: 1px solid #b4a8a8;
+    border: none;
+}
+
+#tabs button:hover{
+    cursor: pointer;
+    /* background-color: #d7d7d7; */
+}
+
+#bar{
+    margin-top: 25px;
+    border-radius: 16px;
+    width: 75%;
+    height: 40px;
+    display: flex;
+}
+
+#textInput{
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 16px 0 0 16px;
+}
+
+#textInput::placeholder{
+    padding-left: 16px;
+}
+
+#buttonInput{
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #8f93e2;
+    border: none;
+    border-radius: 0 16px 16px 0;
+}
+
+#buttonInput:hover{
+    cursor: pointer;
+}
+
+#listToDo{
+    margin-top: 30px;
+    border: 1px solid bisque;
+    height: 60%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#listToDo li{
+    list-style: none;
+    margin-top: 30px;
+    margin-left: -20px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.checkbox{
+    height: 70%;
+    margin-right: 10px;
+}
+
